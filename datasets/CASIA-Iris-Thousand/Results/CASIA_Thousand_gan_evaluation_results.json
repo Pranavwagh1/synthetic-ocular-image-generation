@@ -1,0 +1,14 @@
+{
+    "initial_gan": {
+        "visual_quality": "Mostly noise and checkerboard artifacts",
+        "identity_evaluation_accuracy_percent": null
+    },
+    "improved_gan": {
+        "visual_quality": "Coarse ocular structure but blurry and distorted",
+        "identity_evaluation_accuracy_percent": 0.9999999776482582,
+        "real_mean": 0.381604939699173,
+        "real_std": 0.11795581132173538,
+        "gan_mean": 0.39088499546051025,
+        "gan_std": 0.13689111173152924
+    }
+}
