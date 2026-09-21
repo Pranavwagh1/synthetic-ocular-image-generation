@@ -1,0 +1,9 @@
+{
+    "num_images": 100,
+    "metric": "Pixel-space mean pairwise cosine similarity",
+    "real_mean_similarity": 0.9481772780418396,
+    "real_diversity_score": 0.0518227219581604,
+    "gan_mean_similarity": 0.957541823387146,
+    "gan_diversity_score": 0.042458176612854004,
+    "interpretation": "GAN samples showed lower pixel-space diversity than the sampled real training images."
+}
