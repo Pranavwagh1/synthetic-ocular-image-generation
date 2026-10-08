@@ -1,0 +1,2 @@
+feature_extractor,num_identities,generated_samples,same_identity_similarity_mean,same_identity_similarity_std,different_identity_max_similarity_mean,different_identity_max_similarity_std,identity_similarity_gap,rank1_identity_accuracy
+ResNet18_ImageNet,16,64,0.6546943918801844,0.16376246299891822,0.6968998443335295,0.1675680053756512,-0.04220545245334506,0.078125

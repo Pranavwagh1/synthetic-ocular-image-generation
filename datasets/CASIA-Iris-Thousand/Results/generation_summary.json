@@ -1,0 +1,12 @@
+{
+    "checkpoint_epoch": 30,
+    "best_validation_loss": 0.00658128765609581,
+    "num_identities": 16,
+    "samples_per_identity": 4,
+    "total_generated_samples": 64,
+    "all_finite": true,
+    "global_mean_of_sample_means": 0.5728265127399936,
+    "global_mean_of_sample_stds": 0.279745229287073,
+    "global_min": -1.3558675050735474,
+    "global_max": 3.8608057498931885
+}
