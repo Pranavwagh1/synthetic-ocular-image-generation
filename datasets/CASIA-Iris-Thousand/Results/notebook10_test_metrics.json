@@ -1,0 +1,21 @@
+{
+  "model": "augmented_resnet18_best",
+  "checkpoint_epoch": 10,
+  "checkpoint_validation_accuracy": 0.6635,
+  "test_samples": 4000,
+  "num_classes": 2000,
+  "accuracy": 0.55825,
+  "macro_precision": 0.5044882352941177,
+  "macro_recall": 0.55825,
+  "macro_f1": 0.5038302612592086,
+  "weighted_precision": 0.5044882352941177,
+  "weighted_recall": 0.55825,
+  "weighted_f1": 0.5038302612592086,
+  "mean_predicted_class_confidence": 0.6135806414727122,
+  "evaluation_seconds": 19.97,
+  "confusion_matrix_shape": [
+    2000,
+    2000
+  ],
+  "initialized_from_baseline": true
+}

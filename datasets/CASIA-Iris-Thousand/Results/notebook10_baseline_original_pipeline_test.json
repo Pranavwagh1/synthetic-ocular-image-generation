@@ -1,0 +1,8 @@
+{
+  "experiment": "Original baseline, original preprocessing",
+  "test_samples": 4000,
+  "correct_predictions": 1207,
+  "test_accuracy": 0.30175,
+  "test_accuracy_percent": 30.175,
+  "preprocessing": "CenterCrop(480), Resize(256,256), ToTensor; no normalization"
+}

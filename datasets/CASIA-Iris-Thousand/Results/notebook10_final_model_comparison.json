@@ -1,0 +1,13 @@
+{
+  "notebook": "10_Recognition_with_Augmented_Data",
+  "test_samples_per_model": 4000,
+  "baseline_accuracy_percent": 30.18,
+  "augmented_accuracy_percent": 55.83,
+  "accuracy_improvement_percentage_points": 25.65,
+  "relative_accuracy_improvement_percent": 85.0,
+  "baseline_preprocessing": "CenterCrop(480), Resize(256,256), ToTensor; no normalization",
+  "augmented_preprocessing": "Notebook 10 evaluation pipeline",
+  "comparison_caveat": "The baseline was evaluated using its original preprocessing. The augmented model used the Notebook 10 pipeline. Therefore, the observed difference is promising but is not a strictly controlled estimate of the effect of augmentation alone.",
+  "retraining_performed": false,
+  "comparison_csv": "/content/drive/MyDrive/Ocular_Project/results/recognition_with_augmented_data/notebook10_final_model_comparison.csv"
+}

@@ -1,0 +1,3 @@
+experiment,test_samples,accuracy,macro_precision,macro_recall,macro_f1,preprocessing,accuracy_percent,macro_precision_percent,macro_recall_percent,macro_f1_percent
+Original baseline,4000,0.30175,0.272411,0.30175,0.260661,"CenterCrop(480), Resize(256,256), ToTensor; no normalization",30.175,27.241100000000003,30.175,26.0661
+Diffusion-augmented recognition,4000,0.55825,0.504488,0.55825,0.50383,Notebook 10 evaluation pipeline,55.825,50.448800000000006,55.825,50.383
