@@ -1,0 +1,57 @@
+{
+  "experiment": "GAN vs identity-conditioned diffusion",
+  "gan_diversity": {
+    "num_images": 100,
+    "metric": "Pixel-space mean pairwise cosine similarity",
+    "real_mean_similarity": 0.9481772780418396,
+    "real_diversity_score": 0.0518227219581604,
+    "gan_mean_similarity": 0.957541823387146,
+    "gan_diversity_score": 0.042458176612854004,
+    "interpretation": "GAN samples showed lower pixel-space diversity than the sampled real training images."
+  },
+  "gan_evaluation": {
+    "initial_gan": {
+      "visual_quality": "Mostly noise and checkerboard artifacts",
+      "identity_evaluation_accuracy_percent": null
+    },
+    "improved_gan": {
+      "visual_quality": "Coarse ocular structure but blurry and distorted",
+      "identity_evaluation_accuracy_percent": 0.9999999776482582,
+      "real_mean": 0.381604939699173,
+      "real_std": 0.11795581132173538,
+      "gan_mean": 0.39088499546051025,
+      "gan_std": 0.13689111173152924
+    }
+  },
+  "diffusion_benchmark": {
+    "gpu": "Tesla T4",
+    "ddim_steps": 50,
+    "benchmark_images": 32,
+    "benchmark_seconds": 20.47,
+    "seconds_per_image_estimate": 0.64,
+    "estimated_4800_images_hours": 0.85,
+    "target_identities": 1200,
+    "target_images": 4800,
+    "warning": "Benchmark estimates only. Recover and verify the exact 1,200 identity-disjoint diffusion training labels before full generation."
+  },
+  "diffusion_metadata": {
+    "sample_count": 4800,
+    "unique_identities": 1200,
+    "sampler_counts": {
+      "DDIM": 4800
+    },
+    "sampling_steps": {
+      "50": 4800
+    },
+    "mean_brightness": 162.7405021366677,
+    "mean_contrast": 42.43195336482798,
+    "mean_sharpness_proxy": 6115.000769164165
+  },
+  "limitations": [
+    "GAN and diffusion metrics are not all measured using the same protocol.",
+    "GAN pixel-space diversity is not directly comparable with diffusion metadata.",
+    "The GAN identity-evaluation accuracy requires evaluator verification.",
+    "Diffusion quality statistics are proxies and do not establish identity preservation.",
+    "The DDIM runtime is an estimate from a 32-image benchmark."
+  ]
+}

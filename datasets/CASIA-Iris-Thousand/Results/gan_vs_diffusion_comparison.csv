@@ -1,0 +1,4 @@
+Model,Visual quality,Identity evaluation accuracy (%),Diversity score,Sampling steps,Benchmark seconds per image
+GAN (initial),Mostly noise and checkerboard artifacts,,0.042458176612854004,,
+GAN (improved),Coarse ocular structure but blurry and distorted,0.9999999776482582,0.042458176612854004,,
+Conditional Diffusion (DDIM),Mixed brightness and sharpness; proxy metrics only,,,50.0,0.64
