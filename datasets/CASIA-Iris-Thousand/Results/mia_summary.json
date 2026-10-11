@@ -1,0 +1,25 @@
+{
+  "experiment": "Identity-conditioned diffusion membership inference",
+  "checkpoint_epoch": 30,
+  "checkpoint_train_loss": 0.007627462781315747,
+  "checkpoint_validation_loss": 0.00658128765609581,
+  "members_evaluated": 1000,
+  "nonmembers_evaluated": 1000,
+  "nonmember_definition": "held-out validation images from identities represented in training",
+  "timestep_policy": "deterministic per image; same evaluation procedure for both groups",
+  "member_mean_noise_mse": 0.00588621441100986,
+  "nonmember_mean_noise_mse": 0.007688604479357309,
+  "roc_auc": 0.550688,
+  "attack_advantage_max_tpr_minus_fpr": 0.11399999999999999,
+  "best_threshold_accuracy_descriptive_only": 0.557,
+  "caveat": "Exploratory attack; threshold accuracy is measured on the same sample used to choose the threshold.",
+  "final_interpretation": {
+    "experiment": "Exploratory loss-based membership inference",
+    "roc_auc": 0.550688,
+    "member_mean_noise_mse": 0.00588621441100986,
+    "nonmember_mean_noise_mse": 0.007688604479357309,
+    "conclusion": "The observed ROC-AUC is close to 0.5, indicating weak discrimination by this loss-based attack.",
+    "limitation": "The CSV split contains all 2000 identities in train, validation, and test. It does not establish exact diffusion training-image membership. The attack must therefore be treated as exploratory, not definitive evidence of privacy leakage.",
+    "threshold_accuracy_caveat": "The reported best threshold accuracy was selected and evaluated on the same samples, so it is descriptive rather than an independent estimate of attack accuracy."
+  }
+}
