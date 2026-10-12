@@ -1,0 +1,14 @@
+{
+  "test_images": 436,
+  "num_classes": 425,
+  "accuracy": 0.4724770642201835,
+  "macro_precision": 0.34144919786096256,
+  "macro_recall": 0.4647058823529412,
+  "macro_f1": 0.3717748488869232,
+  "best_validation_accuracy": 0.41284403669724773,
+  "epochs": 5,
+  "batch_size": 16,
+  "architecture": "ResNet18",
+  "pretrained": false,
+  "augmentation": "None"
+}
