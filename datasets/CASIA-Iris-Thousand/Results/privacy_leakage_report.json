@@ -1,0 +1,14 @@
+{
+  "notebook": "13_Privacy_Leakage_Analysis.ipynb",
+  "experiment": "Exploratory loss-based membership inference",
+  "roc_auc": 0.550688,
+  "member_mean_noise_mse": 0.00588621441100986,
+  "nonmember_mean_noise_mse": 0.007688604479357309,
+  "interpretation": "weak discrimination",
+  "privacy_claim": "Exploratory only; exact training membership is unverified",
+  "limitations": [
+    "Identity mapping and exact diffusion training membership are not verified",
+    "Threshold accuracy was selected and evaluated on the same samples",
+    "Results do not establish the presence or absence of significant privacy leakage"
+  ]
+}

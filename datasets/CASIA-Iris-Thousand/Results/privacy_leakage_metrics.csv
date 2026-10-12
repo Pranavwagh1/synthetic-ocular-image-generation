@@ -1,0 +1,5 @@
+Metric,Value,Interpretation
+ROC-AUC,0.550688,0.5 indicates random ranking
+Member mean noise MSE,0.00588621441100986,Lower loss for sampled members
+Held-out mean noise MSE,0.007688604479357309,Compared with sampled members
+Attack advantage (TPR-FPR),0.11399999999999999,If available in saved summary
