@@ -1,0 +1,41 @@
+{
+  "dataset_name": "IIT Delhi Iris Database",
+  "dataset_root": "/content/drive/MyDrive/Ocular_Project/datasets/IITD_database/IITD_database",
+  "total_files": 3271,
+  "image_count": 3270,
+  "valid_image_count": 3270,
+  "invalid_image_count": 0,
+  "subject_folder_count": 219,
+  "eye_label_counts": {
+    "L": 1148,
+    "R": 1032,
+    "1": 218,
+    "2": 218,
+    "3": 218,
+    "4": 218,
+    "5": 218
+  },
+  "extension_counts": {
+    ".bmp": 3270,
+    ".txt": 1
+  },
+  "exact_duplicate_groups": 13,
+  "extra_duplicate_files": 13,
+  "dimension_counts": [
+    {
+      "width": 320,
+      "height": 240,
+      "count": 2180
+    },
+    {
+      "width": 432,
+      "height": 48,
+      "count": 1090
+    }
+  ],
+  "notes": [
+    "Subject and eye labels were inferred from folder and filename structure.",
+    "Read the dataset documentation before finalizing the interpretation of labels.",
+    "This notebook does not create train/validation/test splits or train a model."
+  ]
+}
