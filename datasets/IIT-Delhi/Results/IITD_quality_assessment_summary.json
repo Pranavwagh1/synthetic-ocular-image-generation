@@ -1,0 +1,14 @@
+{
+  "input_images": 3270,
+  "images_assessed": 3270,
+  "errors": 0,
+  "image_dimensions": "224x224",
+  "image_mode": "grayscale",
+  "metrics": [
+    "brightness_mean",
+    "contrast_std",
+    "sharpness_laplacian_variance",
+    "noise_proxy"
+  ],
+  "note": "Noise is an exploratory proxy; outliers are dataset-relative."
+}
