@@ -1,0 +1,24 @@
+{
+  "notebook": "14_Result_Visualization_and_Ablation_Studies.ipynb",
+  "purpose": "Consolidate existing experiment results and identify ablation gaps",
+  "results": {
+    "baseline_test_accuracy_percent": 30.18,
+    "augmented_model_test_accuracy_percent": 55.825,
+    "accuracy_difference_percentage_points": 25.645,
+    "gan_diversity_score": 0.042458,
+    "real_image_diversity_score": 0.051823,
+    "exploratory_membership_inference_auc": 0.550688
+  },
+  "interpretation": [
+    "The augmented-data model has higher reported test accuracy than the baseline.",
+    "Preprocessing differences prevent attributing the entire difference to augmentation.",
+    "The reported GAN diversity score is lower than the real-image reference score for the sampled images.",
+    "The exploratory membership-inference AUC is close to random ranking."
+  ],
+  "limitations": [
+    "Results are consolidated from existing experiment records.",
+    "No new model training or controlled ablation was performed in this notebook.",
+    "Ablation effects cannot be established without controlled experiments.",
+    "Membership-inference training-image membership has not been independently verified."
+  ]
+}

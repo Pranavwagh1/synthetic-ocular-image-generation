@@ -1,0 +1,19 @@
+Method,Metric,Value,Source,Status,Note
+CASIA_Thousand_gan_evaluation_results,Accuracy,0.9999999776482582,CASIA_Thousand_gan_evaluation_results.json,Existing result,Automatically extracted; inspect source units and evaluation protocol
+Membership inference,Member mean noise MSE,0.00588621441100986,mia_summary.json,Existing result,
+Membership inference,Member mean noise MSE,0.007688604479357309,mia_summary.json,Existing result,
+Membership inference,ROC-AUC,0.550688,mia_summary.json,Existing result,Exploratory; training-image membership not independently verified
+notebook10_test_metrics,Macro precision,0.5044882352941177,notebook10_test_metrics.json,Existing result,Automatically extracted; inspect source units and evaluation protocol
+notebook10_test_metrics,Macro recall,0.55825,notebook10_test_metrics.json,Existing result,Automatically extracted; inspect source units and evaluation protocol
+notebook10_test_metrics,Macro F1-score,0.5038302612592086,notebook10_test_metrics.json,Existing result,Automatically extracted; inspect source units and evaluation protocol
+Membership inference,ROC-AUC,0.550688,privacy_leakage_report.json,Existing result,Exploratory; training-image membership not independently verified
+Membership inference,Member mean noise MSE,0.00588621441100986,privacy_leakage_report.json,Existing result,
+Membership inference,Member mean noise MSE,0.007688604479357309,privacy_leakage_report.json,Existing result,
+Baseline recognition,Test accuracy (%),30.18,Previously recorded baseline test results,Previously recorded,"Original baseline; 4,000-image test split"
+Recognition with augmented data,Test accuracy (%),55.825,Previously recorded Notebook 10 results,Previously recorded,Preprocessing differs from baseline; not a controlled ablation
+Recognition with augmented data,Macro precision (%),50.4488,Previously recorded Notebook 10 results,Previously recorded,Reported macro precision
+Recognition with augmented data,Macro recall (%),55.825,Previously recorded Notebook 10 results,Previously recorded,Reported macro recall
+Recognition with augmented data,Macro F1-score (%),50.383,Previously recorded Notebook 10 results,Previously recorded,Reported macro F1-score
+GAN,Diversity score,0.042458,Previously recorded Notebook 11 analysis,Previously recorded,GAN sample of 100 images
+Real images,Diversity score,0.051823,Previously recorded Notebook 11 analysis,Previously recorded,Real-image reference sample of 100 images
+Membership inference,ROC-AUC,0.550688,Notebook 12 MIA summary,Exploratory,Training-image membership not independently verified

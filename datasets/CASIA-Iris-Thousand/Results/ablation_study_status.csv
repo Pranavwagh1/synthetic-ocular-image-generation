@@ -1,0 +1,8 @@
+Experiment,Evidence status,Notes
+Baseline recognition,Available,30.18% test accuracy
+Recognition with augmented data,Available,55.825% test accuracy
+Traditional augmentation only,Needs verified isolated result,Do not infer from augmented-data result
+GAN augmentation only,Needs verified isolated result,Do not infer from GAN image-quality results
+Diffusion augmentation only,Needs controlled isolated result,Do not infer from mixed augmentation result
+Preprocessing-only ablation,Not established,Baseline and augmented pipeline differ in preprocessing
+Privacy membership inference,Exploratory,Training-image membership requires verification
