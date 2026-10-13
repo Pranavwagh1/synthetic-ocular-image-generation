@@ -1,0 +1,2 @@
+data_source,split,identity_label_verified,note
+diffusion,unlabeled_synthetic,False,Notebook 07 metadata does not contain a recognized list of individual image records. Only the saved sample grid is available for this manifest.

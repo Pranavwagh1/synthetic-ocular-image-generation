@@ -1,0 +1,12 @@
+{
+  "original_train_images": 1526,
+  "original_validation_images": 218,
+  "original_test_images": 436,
+  "traditional_train_augmentations": 4578,
+  "gan_synthetic_records": 1275,
+  "diffusion_manifest_records": 1,
+  "diffusion_records_are_individual_images": false,
+  "validation_and_test_preserved": true,
+  "gpu_required": false,
+  "identity_label_policy": "GAN labels are proposed labels and are not treated as verified identities. Diffusion samples are unlabeled unless identity is independently verified."
+}
