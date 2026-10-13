@@ -1,0 +1,7 @@
+{
+  "real_images": 3270,
+  "traditional_images_sampled": 100,
+  "gan_images_evaluated": 100,
+  "diffusion_tiles_evaluated": 16,
+  "note": "Traditional and GAN results use samples; diffusion uses only 16 tiles. These metrics do not establish identity preservation."
+}
