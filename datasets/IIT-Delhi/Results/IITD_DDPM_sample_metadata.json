@@ -1,0 +1,11 @@
+{
+  "model": "IITD compact unconditional DDPM",
+  "checkpoint_epoch": 100,
+  "number_of_images": 16,
+  "native_resolution": "64x64",
+  "diffusion_timesteps": 100,
+  "sample_grid": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook07_diffusion/training_samples/IITD_DDPM_generated_16.png",
+  "identity_conditioning": false,
+  "identity_preservation_verified": false,
+  "note": "Exploratory samples. Visual quality and biometric utility require separate evaluation."
+}

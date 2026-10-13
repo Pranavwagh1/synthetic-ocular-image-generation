@@ -1,0 +1,16 @@
+{
+  "model": "Compact unconditional DDPM",
+  "epochs_completed": 100,
+  "training_images": 1526,
+  "training_resolution": 64,
+  "diffusion_timesteps": 100,
+  "batch_size": 32,
+  "training_seconds": 321.81,
+  "stop_reason": "maximum_epochs",
+  "checkpoint": "/content/drive5/MyDrive/Ocular_Project/models/IITD/IITD_small_ddpm_latest.pth",
+  "history_csv": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook07_diffusion/IITD_diffusion_training_history.csv",
+  "validation_used_for_training": false,
+  "test_used_for_training": false,
+  "identity_conditioning": false,
+  "note": "Unconditional diffusion baseline. Generated samples are not identity-labeled or verified as identity-preserving."
+}

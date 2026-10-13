@@ -1,0 +1,11 @@
+{
+  "model_checkpoint_epoch": 100,
+  "sampling_schedule": "cosine diagnostic",
+  "training_schedule": "linear",
+  "number_of_samples": 16,
+  "image_size": 64,
+  "retrained": false,
+  "identity_conditioning": false,
+  "identity_preservation_verified": false,
+  "interpretation": "Diagnostic only: sampling schedule differs from training schedule. Do not treat this as a controlled quality comparison."
+}
