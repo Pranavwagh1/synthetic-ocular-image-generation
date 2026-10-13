@@ -1,0 +1,12 @@
+{
+  "epochs_completed": 15,
+  "training_images": 1526,
+  "identity_classes": 425,
+  "training_resolution": 64,
+  "checkpoint": "/content/drive5/MyDrive/Ocular_Project/models/IITD/IITD_conditional_dcgan_latest.pth",
+  "history_csv": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook06_gan_augmentation/IITD_gan_training_history.csv",
+  "sample_directory": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook06_gan_augmentation/training_samples",
+  "validation_used_for_gan_training": false,
+  "test_used_for_gan_training": false,
+  "note": "Exploratory conditional GAN. Conditioning on an identity label does not establish identity preservation of generated images."
+}

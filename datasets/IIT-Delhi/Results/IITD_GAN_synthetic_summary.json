@@ -1,0 +1,13 @@
+{
+  "synthetic_images_generated": 1275,
+  "identity_classes_conditioned": 425,
+  "samples_per_class": 3,
+  "native_resolution": "128x128",
+  "saved_resolution": "224x224",
+  "model_checkpoint": "/content/drive5/MyDrive/Ocular_Project/models/IITD/IITD_conditional_dcgan_128_latest.pth",
+  "metadata_csv": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook06_gan_augmentation/improved_128/IITD_GAN_synthetic_metadata.csv",
+  "output_directory": "/content/drive5/MyDrive/Ocular_Project/generated_images/IITD/gan",
+  "identity_preservation_verified": false,
+  "visual_quality_limitation": "Visible artifacts and blurred iris details in the inspected samples.",
+  "usage_warning": "Do not assume synthetic labels are correct biometric identities. Evaluate quality and recognition performance before using these images to support performance claims."
+}

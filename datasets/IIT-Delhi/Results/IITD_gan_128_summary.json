@@ -1,0 +1,13 @@
+{
+  "epochs_completed": 10,
+  "training_images": 1526,
+  "identity_classes": 425,
+  "training_resolution": 128,
+  "batch_size": 16,
+  "checkpoint": "/content/drive5/MyDrive/Ocular_Project/models/IITD/IITD_conditional_dcgan_128_latest.pth",
+  "history_csv": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook06_gan_augmentation/improved_128/IITD_gan_128_training_history.csv",
+  "samples_directory": "/content/drive5/MyDrive/Ocular_Project/results/IITD/notebook06_gan_augmentation/improved_128/training_samples",
+  "validation_used_for_gan_training": false,
+  "test_used_for_gan_training": false,
+  "note": "Single improved GAN attempt. Image quality and identity preservation must be evaluated separately."
+}
