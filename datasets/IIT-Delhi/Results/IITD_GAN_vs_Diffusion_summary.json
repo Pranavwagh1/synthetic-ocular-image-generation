@@ -1,0 +1,95 @@
+{
+  "comparison_type": "Exploratory descriptive image-statistics comparison",
+  "identity_preservation_verified": false,
+  "metrics": [
+    "brightness_mean",
+    "contrast_std",
+    "sharpness_laplacian_variance",
+    "noise_proxy"
+  ],
+  "datasets": {
+    "Real images": {
+      "sample_count": 3270,
+      "brightness_mean": {
+        "mean": 114.69976025269301,
+        "std": 14.540360485600457
+      },
+      "contrast_std": {
+        "mean": 71.10288500421274,
+        "std": 12.499448313848063
+      },
+      "sharpness_laplacian_variance": {
+        "mean": 6017.497823396735,
+        "std": 4335.968973250955
+      },
+      "noise_proxy": {
+        "mean": 31.2044491939953,
+        "std": 30.20560218090744
+      }
+    },
+    "Traditional augmentation": {
+      "sample_count": 100,
+      "brightness_mean": {
+        "mean": 108.15056396484376,
+        "std": 16.62842553333143
+      },
+      "contrast_std": {
+        "mean": 58.03663181304932,
+        "std": 7.967331124528412
+      },
+      "sharpness_laplacian_variance": {
+        "mean": 4149.3953857421875,
+        "std": 1302.0111440844867
+      },
+      "noise_proxy": {
+        "mean": 7.391284008026123,
+        "std": 1.2975549418840706
+      }
+    },
+    "GAN": {
+      "sample_count": 100,
+      "brightness_mean": {
+        "mean": 140.2371484375,
+        "std": 17.16935860446002
+      },
+      "contrast_std": {
+        "mean": 57.311834449768064,
+        "std": 6.493236796523789
+      },
+      "sharpness_laplacian_variance": {
+        "mean": 2738.3600341796873,
+        "std": 502.7565207730229
+      },
+      "noise_proxy": {
+        "mean": 7.346253848075866,
+        "std": 0.5733210916814966
+      }
+    },
+    "Diffusion": {
+      "sample_count": 16,
+      "brightness_mean": {
+        "mean": 123.60488891601562,
+        "std": 5.017721304824922
+      },
+      "contrast_std": {
+        "mean": 23.4956476688385,
+        "std": 2.816254018805234
+      },
+      "sharpness_laplacian_variance": {
+        "mean": 1501.3011474609375,
+        "std": 260.86794310488483
+      },
+      "noise_proxy": {
+        "mean": 4.73032209277153,
+        "std": 0.386000835517697
+      }
+    }
+  },
+  "limitations": [
+    "GAN and traditional metrics use 100 sampled images each; diffusion uses 16 tiles.",
+    "Metrics are low-level image statistics and do not establish biometric identity preservation.",
+    "Different sample sizes make this an exploratory rather than definitive comparison.",
+    "Noise proxy is an exploratory statistic, not a validated perceptual-quality metric.",
+    "GAN and diffusion training configurations differ, so this is not a controlled architecture benchmark."
+  ]
+}
