@@ -1,0 +1,19 @@
+{
+  "dataset": "IIT Delhi Iris Database",
+  "source_training_images": 1526,
+  "augmentations_per_image": 3,
+  "generated_augmented_images": 4578,
+  "training_examples_including_originals": 6104,
+  "validation_and_test_augmented": false,
+  "image_size": "224x224",
+  "image_mode": "grayscale",
+  "methods": [
+    "small rotation",
+    "small translation",
+    "brightness variation",
+    "contrast variation"
+  ],
+  "seed": 42,
+  "runtime_seconds": 45.03,
+  "archive": "IITD_traditional_augmented_images.zip"
+}
