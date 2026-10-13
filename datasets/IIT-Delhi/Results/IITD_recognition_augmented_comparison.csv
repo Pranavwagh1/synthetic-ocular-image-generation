@@ -1,0 +1,4 @@
+experiment,training_images,epochs,best_validation_accuracy,test_images,test_accuracy,test_macro_precision,test_macro_recall,test_macro_f1,exploratory_unverified_identity_labels,interpretation
+original_only,1526,2,0.0045871559633027525,436,0.006880733944954129,4.925030385961026e-05,0.004705882352941176,9.72989722666942e-05,False,Closed-set experiment using the fixed original train/validation/test split.
+original_plus_traditional,6104,2,0.013761467889908258,436,0.022935779816513763,0.00429893658729363,0.02,0.005364338084061266,False,Closed-set experiment using the fixed original train/validation/test split.
+original_plus_GAN_exploratory,2801,2,0.0045871559633027525,436,0.0045871559633027525,1.3881658858233558e-05,0.002352941176470588,2.7600483008452648e-05,True,Exploratory only: GAN conditioning labels are not verified biometric identities.

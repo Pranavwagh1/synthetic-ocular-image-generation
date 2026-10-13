@@ -1,0 +1,13 @@
+{
+  "experiment": "original_plus_GAN_exploratory",
+  "training_images": 2801,
+  "epochs": 2,
+  "best_validation_accuracy": 0.0045871559633027525,
+  "test_images": 436,
+  "test_accuracy": 0.0045871559633027525,
+  "test_macro_precision": 1.3881658858233558e-05,
+  "test_macro_recall": 0.002352941176470588,
+  "test_macro_f1": 2.7600483008452648e-05,
+  "exploratory_unverified_identity_labels": true,
+  "interpretation": "Exploratory only: GAN conditioning labels are not verified biometric identities."
+}

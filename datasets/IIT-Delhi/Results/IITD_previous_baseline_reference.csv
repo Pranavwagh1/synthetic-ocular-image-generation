@@ -1,0 +1,2 @@
+test_images,num_classes,accuracy,macro_precision,macro_recall,macro_f1,best_validation_accuracy,epochs,batch_size,architecture,pretrained,augmentation
+436,425,0.4724770642201835,0.3414491978609625,0.4647058823529412,0.3717748488869232,0.4128440366972477,5,16,ResNet18,False,

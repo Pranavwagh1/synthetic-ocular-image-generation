@@ -1,0 +1,12 @@
+{
+  "original_train_expected": 1526,
+  "original_train_found": 1526,
+  "original_missing": 0,
+  "traditional_metadata_records": 4578,
+  "traditional_zip_images": 4578,
+  "gan_metadata_records": 1275,
+  "gan_images_found": 1275,
+  "gan_images_missing": 0,
+  "validation_images": 218,
+  "test_images": 436
+}

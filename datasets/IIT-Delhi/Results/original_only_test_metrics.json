@@ -1,0 +1,13 @@
+{
+  "experiment": "original_only",
+  "training_images": 1526,
+  "epochs": 2,
+  "best_validation_accuracy": 0.0045871559633027525,
+  "test_images": 436,
+  "test_accuracy": 0.006880733944954129,
+  "test_macro_precision": 4.925030385961026e-05,
+  "test_macro_recall": 0.004705882352941176,
+  "test_macro_f1": 9.72989722666942e-05,
+  "exploratory_unverified_identity_labels": false,
+  "interpretation": "Closed-set experiment using the fixed original train/validation/test split."
+}
