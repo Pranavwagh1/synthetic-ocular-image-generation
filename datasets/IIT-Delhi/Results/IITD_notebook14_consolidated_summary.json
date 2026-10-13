@@ -1,0 +1,33 @@
+{
+  "comparison_type": "Exploratory comparison of existing experiments; not a controlled ablation",
+  "cpu_only": true,
+  "model_training_performed": false,
+  "recognition_test_accuracy": {
+    "original_only": 0.0068807339449541,
+    "original_plus_traditional": 0.0229357798165137,
+    "original_plus_GAN_exploratory": 0.0045871559633027,
+    "traditional_minus_original_absolute_difference": 0.0160550458715596,
+    "GAN_minus_original_absolute_difference": -0.0022935779816514006
+  },
+  "membership_inference_auc": {
+    "true_class_confidence": 0.4799,
+    "max_confidence": 0.505475,
+    "negative_loss": 0.4799
+  },
+  "interpretation": [
+    "Recognition experiments in Notebook 10 used only two epochs and produced very low test accuracy.",
+    "The existing Notebook 04 baseline result is from a different training run/configuration; these results should not be treated as a controlled comparison.",
+    "Traditional augmentation has a higher recorded test accuracy than the Notebook 10 original-only run, but this does not establish a reliable improvement.",
+    "GAN conditioning labels are not verified biometric identity labels.",
+    "Generated-image low-level statistics do not establish visual realism or identity preservation.",
+    "Membership-inference ROC-AUC values near 0.5 indicate little score-based separation in the sampled audit, not proof of no privacy leakage.",
+    "No formal multi-seed, matched-budget ablation was conducted."
+  ],
+  "generated_outputs": [
+    "IITD_recognition_comparison.png",
+    "IITD_image_statistics_comparison.png",
+    "IITD_membership_attack_auc_comparison.png",
+    "IITD_final_recognition_summary.csv",
+    "IITD_final_membership_attack_summary.csv"
+  ]
+}

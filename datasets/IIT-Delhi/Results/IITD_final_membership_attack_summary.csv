@@ -1,0 +1,4 @@
+attack_score,roc_auc,balanced_accuracy,tpr_at_or_below_5pct_fpr,result_type
+true_class_confidence,0.4799,0.5175000000000001,0.055,membership_inference
+max_confidence,0.505475,0.525,0.055,membership_inference
+negative_loss,0.4799,0.5175000000000001,0.055,membership_inference
