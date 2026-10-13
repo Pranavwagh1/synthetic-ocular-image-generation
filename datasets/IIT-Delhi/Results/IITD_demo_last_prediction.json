@@ -1,0 +1,30 @@
+{
+  "uploaded_filename": "01_L.bmp",
+  "predicted_dataset_class": "006_R",
+  "model_confidence": 0.09391114115715027,
+  "top_predictions": [
+    {
+      "dataset_class": "006_R",
+      "model_confidence": 0.0939
+    },
+    {
+      "dataset_class": "149_L",
+      "model_confidence": 0.0885
+    },
+    {
+      "dataset_class": "002_L",
+      "model_confidence": 0.0833
+    },
+    {
+      "dataset_class": "065_L",
+      "model_confidence": 0.0479
+    },
+    {
+      "dataset_class": "122_L",
+      "model_confidence": 0.0459
+    }
+  ],
+  "model_checkpoint": "IITD_baseline_resnet18_best.pth",
+  "device": "cpu",
+  "identity_verified": false
+}
