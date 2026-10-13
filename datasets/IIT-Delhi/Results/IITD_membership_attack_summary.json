@@ -1,0 +1,38 @@
+{
+  "experiment": "Fast exploratory score-based membership inference",
+  "checkpoint": "/content/drive5/MyDrive/Ocular_Project/models/IITD/IITD_baseline_resnet18_best.pth",
+  "member_count": 200,
+  "nonmember_count": 200,
+  "sampled_images_only": true,
+  "model_retrained": false,
+  "attack_metrics": [
+    {
+      "attack_score": "true_class_confidence",
+      "roc_auc": 0.4799,
+      "balanced_accuracy": 0.5175000000000001,
+      "threshold_selected_on_evaluation_sample": 0.5285202264785767,
+      "tpr_at_or_below_5pct_fpr": 0.055
+    },
+    {
+      "attack_score": "max_confidence",
+      "roc_auc": 0.505475,
+      "balanced_accuracy": 0.525,
+      "threshold_selected_on_evaluation_sample": 0.15209083259105682,
+      "tpr_at_or_below_5pct_fpr": 0.055
+    },
+    {
+      "attack_score": "negative_loss",
+      "roc_auc": 0.4799,
+      "balanced_accuracy": 0.5175000000000001,
+      "threshold_selected_on_evaluation_sample": -0.6376742124557495,
+      "tpr_at_or_below_5pct_fpr": 0.055
+    }
+  ],
+  "limitations": [
+    "Only a deterministic sample of 200 members and 200 non-members was evaluated.",
+    "Thresholds were selected on the evaluation sample and are descriptive, not unbiased deployment estimates.",
+    "Train and test images may differ in content or acquisition conditions.",
+    "Attack AUC does not by itself prove disclosure of personal information.",
+    "Near-chance results do not prove the absence of privacy leakage."
+  ]
+}
